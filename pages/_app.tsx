@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { ws } from '../context/roomContext'
+import { ws } from '../room-context/RoomContext'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
